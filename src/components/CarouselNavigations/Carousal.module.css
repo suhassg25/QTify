@@ -1,0 +1,30 @@
+.leftarrow{
+    position: absolute;
+    left: 5px;
+    top: 80px;
+    z-index: 1;
+    cursor: pointer;
+    background-color: rgba(52, 201, 75, 1);
+    border-radius: 50%;
+}
+
+.left{
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    font-size: 30px;
+}
+.rightarrow{
+    border-radius: 50%;
+    cursor: pointer;
+    position: absolute;
+    right: 15px;
+    top: 80px;
+    background-color: rgba(52, 201, 75, 1);
+    z-index: 1;
+}
+
+.right{
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    font-size: 30px;
+}
